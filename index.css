@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: gray;
+}
+
+#main-container {
+  background-color: bisque;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.col-1 {
+  display: grid;
+  overflow: auto;
+  grid-template-rows: 1fr 1fr;
+}
+
+.row-1 {
+  background-color: cadetblue;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.row-1-1 {
+  background-color: crimson;
+  overflow: auto;
+}
+
+.row-1-2 {
+  background-color: darkkhaki;
+  overflow: auto;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-rows: 90px 1fr 90px;
+  overflow: auto;
+}
+
+.row-2 {
+  background-color: chocolate;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.row-2-1 {
+  background-color: darkmagenta;
+  overflow: auto;
+}
+
+.row-2-2 {
+  background-color: darkslateblue;
+  overflow: auto;
+}
+
+.row-3 {
+  background-color: darkturquoise;
+}
+
+.row-4 {
+  background-color: firebrick;
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow: auto;
+}
+
+.row-4-1 {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow: auto;
+}
+
+.row-5 {
+  background-color: fuchsia;
+}
+
+.text-editor {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: auto;
+}
+
+.toolbar {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  background-color: wheat;
+  overflow: auto;
+}
+
+.test-height {
+  height: 1000px;
+}
